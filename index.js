@@ -24,7 +24,7 @@ app.listen(PORT, ()=>
 
 app.get("/", (request, response)=>
     {
-        response.send(`<h1>THIS IS A HOMEPAGE</h1>`)
+        response.send(`<h1>THIS IS HOMEPAGE</h1>`)
     })
 
 dbConnect();
